@@ -253,6 +253,9 @@ button {
 .mobile-brand {
   display:none;
 }
+.mobile-auth-link {
+  display:none;
+}
 .page-wrap {
   max-width:1310px;
   margin:0 auto;
@@ -1474,6 +1477,7 @@ transform:translateY(0);
   .location-pill > span:first-child { font-size: 18px; }
   .location-pill .chevron { font-size: 12px; }
   .top-actions { gap: 10px; }
+  .mobile-auth-link { display: inline-flex; align-items: center; justify-content: center; border: 1px solid #dce6da; border-radius: 7px; background: #fff; color: #315f40; padding: 7px 10px; font: 700 10px var(--font); white-space: nowrap; }
   .page-wrap { padding: 24px 15px 12px; }
   .welcome-row { align-items: flex-start; margin-bottom: 17px; }
   .welcome-row h1 { font-size: 22px; }
